@@ -22,6 +22,7 @@ export default function CinematicScroll() {
     const ctx = gsap.context(() => {
       const scenes = ["#scene-1", "#scene-2", "#scene-3", "#scene-4"];
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
       if (reducedMotion) {
         // Keep the section usable but static: show scene one only,
         // since the same projects are browsable in the Featured Portfolio grid.
@@ -37,15 +38,15 @@ export default function CinematicScroll() {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top top",
-          end: "+=300%",
-          scrub: 1,
+          end: isMobile ? "+=200%" : "+=300%",
+          scrub: isMobile ? 0.35 : 1,
         },
       });
 
       scenes.forEach((sel, i) => {
         if (i > 0) {
           tl.to(sel, { opacity: 1, duration: 0.6 }, i - 0.4);
-          tl.to(`${sel} .scene-bg`, { scale: 1.12, duration: 1 }, "<");
+          tl.to(`${sel} .scene-bg`, { scale: isMobile ? 1.06 : 1.12, duration: 1 }, "<");
         }
         if (i < scenes.length - 1) {
           tl.to(sel, { opacity: 0, duration: 0.6 }, i + 0.6);
@@ -53,7 +54,7 @@ export default function CinematicScroll() {
       });
 
       const hcards = document.getElementById("hcards");
-      if (hcards) {
+      if (hcards && !isMobile) {
         gsap.to(hcards, {
           x: () => -(hcards.scrollWidth - window.innerWidth + 60),
           ease: "none",
@@ -71,7 +72,7 @@ export default function CinematicScroll() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative h-[400vh] bg-background">
+    <section ref={sectionRef} className="relative h-[280vh] md:h-[400vh] bg-background">
       <div className="sticky top-0 h-screen overflow-hidden">
         <SceneOne />
         <SceneTwo />

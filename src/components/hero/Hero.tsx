@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <section id="hero" className="relative min-h-screen overflow-hidden flex items-end">
       <HeroScene />
-      <div className="relative z-[5] w-full px-5 sm:px-8 pb-16 sm:pb-24">
+      <div className="relative z-[5] w-full px-5 sm:px-8 pb-28 sm:pb-24">
         <motion.div
           className="text-xs tracking-[0.18em] text-gold-light uppercase font-semibold mb-5"
           initial={{ opacity: 0, y: 24 }}
@@ -30,7 +30,16 @@ export default function Hero() {
           Interior Design Studio &middot; Noida
         </motion.div>
 
-        <h1 className="text-[clamp(3rem,9vw,9rem)] text-cream">
+        <motion.div
+          className="text-[11px] tracking-[0.12em] uppercase text-[rgba(245,241,234,0.7)] mb-4"
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: EASE, delay: 0.6 }}
+        >
+          Founded by Faisal
+        </motion.div>
+
+        <h1 className="text-[clamp(2.8rem,9vw,9rem)] leading-[0.95] text-cream">
           <span className="block overflow-hidden">
             <motion.span
               className="block"
