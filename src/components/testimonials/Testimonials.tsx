@@ -4,6 +4,7 @@ import { useRef } from "react";
 import SectionTitle from "../ui/SectionTitle";
 import RevealText from "../ui/RevealText";
 import { testimonials } from "@/data/testimonials";
+import { business } from "@/lib/utils";
 
 export default function Testimonials() {
   const trackRef = useRef<HTMLDivElement>(null);
@@ -27,7 +28,17 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-24 md:py-40">
       <div className="max-w-[1360px] mx-auto px-5 sm:px-8">
-        <SectionTitle heading={<>Loved By<br />Our Clients.</>} className="mb-14" />
+        <div className="mb-14 flex flex-wrap items-end justify-between gap-6">
+          <SectionTitle heading={<>Loved By<br />Our Clients.</>} />
+          <a
+            href={business.reviewsUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="text-xs tracking-[0.12em] uppercase text-gold border-b border-gold/60 pb-2 hover:border-gold transition-colors"
+          >
+            Read our Google reviews
+          </a>
+        </div>
 
         <div
           ref={trackRef}

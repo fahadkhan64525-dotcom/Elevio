@@ -43,7 +43,13 @@ export default function Footer() {
               </a>
               <p className="text-[15px] text-foreground/85">Noida Sector 93</p>
               <div className="flex gap-4 mt-1">
-                <a href="#" aria-label="Instagram" className="text-[15px] text-foreground/85">
+                <a
+                  href={business.instagramUrl}
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[15px] text-foreground/85"
+                >
                   Instagram
                 </a>
                 <a href="#" aria-label="Facebook" className="text-[15px] text-foreground/85">

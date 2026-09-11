@@ -120,7 +120,7 @@ export const beforeAfterData = [
 export const stats = [
   { value: 100, suffix: "+", label: "Spaces Designed" },
   { value: 50, suffix: "+", label: "Happy Clients" },
-  { value: 5, suffix: "+", label: "Years Experience" },
+  { value: 25, suffix: "+", label: "Years Experience" },
   { value: 0, suffix: "", label: "End-to-End Execution", display: "End-to-End" },
 ];
 
