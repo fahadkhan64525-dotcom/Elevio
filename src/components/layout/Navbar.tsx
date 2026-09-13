@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
-  { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Process", href: "#process" },
+  { label: "About", href: "#about" },
 ];
 
 function scrollToHash(hash: string) {
@@ -63,12 +63,12 @@ export default function Navbar() {
             <a
               href="#hero"
               onClick={(e) => handleNavClick(e, "#hero")}
-              className="font-serif text-xl tracking-wide"
+              className="font-serif text-lg sm:text-xl tracking-wide whitespace-nowrap flex-shrink-0 mr-4"
             >
               Elevio Interiors
             </a>
 
-            <div className="hidden md:flex gap-10 text-sm font-medium">
+            <div className="hidden md:flex gap-10 text-sm font-medium flex-shrink-0">
               {navLinks.map((link) => (
                 <a
                   key={link.href}

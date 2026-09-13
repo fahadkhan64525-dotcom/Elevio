@@ -15,8 +15,6 @@ export const business = {
   emailHref: "mailto:eleviointerior@gmail.com",
   location: "Noida Sector 93, Uttar Pradesh, India",
   mapsUrl: "https://maps.app.goo.gl/9htLMuAQ7rdqAB1aA?g_st=aw",
-  instagramUrl: "https://www.instagram.com/elevio.interiors?igsh=MTB5OG16ZWVxNnJqeQ==",
-  reviewsUrl: "https://share.google/dkrIRy9yOfggmWETd",
 };
 
 export function buildWhatsAppMessage(data: {

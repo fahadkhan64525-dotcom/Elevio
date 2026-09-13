@@ -2,92 +2,82 @@ export type Service = {
   num: string;
   name: string;
   description: string;
-  previewImage: string;
+  icon: "residential" | "kitchen" | "commercial" | "renovation" | "visualization";
 };
 
-// Residential, Commercial, and Bedroom now use real project photos.
-// Modular Kitchens, Living Room Design, Renovation & Remodeling, and 3D
-// Visualization still use Unsplash placeholders — no matching real photos
-// were provided for these yet.
 export const services: Service[] = [
   {
     num: "01",
-    name: "Residential Interiors",
-    description: "Homes designed around your lifestyle.",
-    previewImage: "/images/projects/bedroom-archsuite-02.jpg",
+    name: "Residential",
+    description: "Complete home interiors, room by room.",
+    icon: "residential",
   },
   {
     num: "02",
-    name: "Modular Kitchens",
-    description: "Functional kitchens with modern aesthetics.",
-    previewImage:
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    name: "Modular Kitchen",
+    description: "Kitchens planned for daily use and easy storage.",
+    icon: "kitchen",
   },
   {
     num: "03",
-    name: "Commercial Interiors",
-    description: "Workspaces designed for productivity and impact.",
-    previewImage: "/images/projects/office-executive-01.jpg",
+    name: "Commercial Interior",
+    description: "Offices, shops, and cafés built for the work they do.",
+    icon: "commercial",
   },
   {
     num: "04",
-    name: "Living Room Design",
-    description: "Spaces made for connection and comfort.",
-    previewImage:
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80",
+    name: "Renovation & Remodeling",
+    description: "Updating existing spaces without starting from zero.",
+    icon: "renovation",
   },
   {
     num: "05",
-    name: "Bedroom Design",
-    description: "Personal spaces designed for rest.",
-    previewImage: "/images/projects/bedroom-floral-01.jpg",
-  },
-  {
-    num: "06",
-    name: "Renovation & Remodeling",
-    description: "Transforming existing spaces into something extraordinary.",
-    previewImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    num: "07",
     name: "3D Visualization",
-    description: "See your dream space before execution.",
-    previewImage:
-      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=800&q=80",
+    description: "A clear 3D view of your space before we build it.",
+    icon: "visualization",
   },
 ];
 
 export const processSteps = [
   {
     num: "01",
-    title: "Consultation",
-    description: "Understanding your vision, lifestyle, and requirements.",
+    title: "Meeting",
+    description: "Understanding what you need and how you use the space.",
   },
   {
     num: "02",
-    title: "Space Planning",
-    description: "Creating functional layouts optimized for everyday living.",
+    title: "Measurement",
+    description: "Taking accurate site measurements before any planning.",
   },
   {
     num: "03",
-    title: "3D Visualization",
-    description: "Bringing your future space to life before execution.",
+    title: "Furniture Layout",
+    description: "Planning where everything goes and how you'll move through the space.",
   },
   {
     num: "04",
-    title: "Material Selection",
-    description: "Selecting textures, finishes, furniture, and lighting.",
+    title: "Moodboards",
+    description: "Reference images to understand your taste before we design.",
   },
   {
     num: "05",
-    title: "Execution",
-    description: "Turning carefully planned designs into reality.",
+    title: "3D Render",
+    description: "A 3D view of the space so you can see the design and how it will work.",
   },
   {
     num: "06",
-    title: "Final Styling",
-    description: "Adding the finishing details that complete the space.",
+    title: "Approval",
+    description: "You review the 3D renders and the complete design before we proceed.",
+  },
+  {
+    num: "07",
+    title: "Working Drawings",
+    description: "Detailed drawings are prepared and signed off before execution.",
+  },
+  {
+    num: "08",
+    title: "Site Execution",
+    description: "The design is built on site, from start to handover.",
   },
 ];
 
@@ -118,9 +108,9 @@ export const beforeAfterData = [
 ];
 
 export const stats = [
-  { value: 100, suffix: "+", label: "Spaces Designed" },
+  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 100, suffix: "+", label: "Projects Completed" },
   { value: 50, suffix: "+", label: "Happy Clients" },
-  { value: 25, suffix: "+", label: "Years Experience" },
   { value: 0, suffix: "", label: "End-to-End Execution", display: "End-to-End" },
 ];
 

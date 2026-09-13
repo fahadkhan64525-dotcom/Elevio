@@ -65,8 +65,8 @@ const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Elevio Interiors",
-  url: "https://eleviointeriors.example.com",
-  logo: "https://eleviointeriors.example.com/icons/logo.svg",
+  url: "https://eleviointeriors.com",
+  logo: "https://eleviointeriors.com/icons/logo.svg",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

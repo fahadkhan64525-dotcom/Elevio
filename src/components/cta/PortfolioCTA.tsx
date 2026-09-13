@@ -23,7 +23,7 @@ export default function PortfolioCTA() {
         </RevealText>
         <RevealText delay={0.15}>
           <p className="mt-6 mb-11 text-[rgba(245,241,234,0.75)] max-w-[40ch] mx-auto">
-            Let&apos;s create a space that feels uniquely yours.
+            Tell us about your space and we&apos;ll take it from there.
           </p>
         </RevealText>
         <div className="flex gap-4 flex-wrap justify-center">

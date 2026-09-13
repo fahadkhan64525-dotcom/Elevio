@@ -29,4 +29,10 @@ export const testimonials: Testimonial[] = [
     name: "Karan Bedi",
     location: "Noida",
   },
+  {
+    quote:
+      "Yusuf did an excellent job with our kitchen, bedroom cupboards and drawing room furniture. The quality of his work was excellent and he paid close attention to every detail. He completed all the work on time as promised and was professional, courteous and easy to work with throughout the project. I am very happy with the end result and would definitely recommend Yusuf to anyone looking for a skilled and reliable carpenter",
+    name: "Rohit Katariya",
+    location: "Noida",
+  },
 ];

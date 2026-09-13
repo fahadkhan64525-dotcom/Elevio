@@ -1,8 +1,7 @@
 import Hero from "@/components/hero/Hero";
 import About from "@/components/layout/About";
-import CinematicScroll from "@/components/cinematic/CinematicScroll";
+import Team from "@/components/team/Team";
 import PortfolioGrid from "@/components/portfolio/PortfolioGrid";
-import Showcase from "@/components/showcase/Showcase";
 import Services from "@/components/services/Services";
 import DesignProcess from "@/components/process/DesignProcess";
 import BeforeAfter from "@/components/comparison/BeforeAfter";
@@ -17,12 +16,11 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Team />
       <About />
-      <CinematicScroll />
-      <DesignProcess />
-      <PortfolioGrid />
-      <Showcase />
       <Services />
+      <PortfolioGrid />
+      <DesignProcess />
       <BeforeAfter />
       <WhyElevio />
       <Testimonials />

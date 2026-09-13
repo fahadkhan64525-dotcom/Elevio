@@ -7,7 +7,7 @@ export default function BeforeAfter() {
   return (
     <section id="beforeafter" className="py-24 md:py-40">
       <div className="max-w-[1360px] mx-auto px-5 sm:px-8">
-        <SectionTitle heading={<>Transformation<br />Stories.</>} className="mb-14" />
+        <SectionTitle heading={<>Before<br />&amp; After.</>} className="mb-14" />
         <div className="flex flex-col gap-16">
           {beforeAfterData.map((item, i) => (
             <RevealText key={item.title} delay={i * 0.08}>
