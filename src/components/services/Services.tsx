@@ -17,7 +17,7 @@ export default function Services() {
   return (
     <section id="services" className="py-24 md:py-40">
       <div className="max-w-[1360px] mx-auto px-5 sm:px-8">
-        <SectionTitle heading="What We Create." className="mb-14" />
+        <SectionTitle heading="Our Service." className="mb-14" />
 
         <div>
           {services.map((service, i) => {
