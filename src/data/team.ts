@@ -8,7 +8,7 @@ export const team: TeamMember[] = [
   {
     name: "Yusuf Saifi",
     role: "Founder",
-    bio: "Founder & Execution Head 25+ Years of Interior Execution Experiance.",
+    bio: "Founder & Execution Head 25+ Years of Interior Execution Experience.",
   },
   {
     name: "Faisal Saifi",
