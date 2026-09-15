@@ -53,7 +53,8 @@ export default function HeroScene() {
         className="absolute inset-0 bg-cover bg-center will-change-transform"
         style={{
           backgroundImage:
-            "url('/images/projects/bedroom-maroon-03.jpg')",
+            "url('/images/projects/IMG-20260914-WA0003.jpg
+')",
           transform: "scale(1.15)",
         }}
       />
