@@ -86,13 +86,13 @@ export const processSteps = [
 export const beforeAfterData = [
   {
     title: "Project Transformation 01",
-    before: "/images/projects/IMG-20260915-WA0005.jpg",
-    after: "/images/projects/IMG-20260915-WA0006.jpg",
+    before: "/images/projects/IMG-20260915-WA0006.jpg",
+    after: "/images/projects/IMG-20260915-WA0005.jpg",
   },
   {
     title: "Project Transformation 02",
-    before: "/images/projects/IMG-20260915-WA0007.jpg",
-    after: "/images/projects/IMG-20260915-WA0008.jpg",
+    before: "/images/projects/IMG-20260915-WA0008.jpg",
+    after: "/images/projects/IMG-20260915-WA0007.jpg",
   },
   {
     title: "Kitchen Upgrade",
