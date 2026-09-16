@@ -85,18 +85,14 @@ export const processSteps = [
 // provided, only finished-space photography.
 export const beforeAfterData = [
   {
-    title: "Living Room Transformation",
-    before:
-      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1400&q=80",
-    after:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=80",
+    title: "Project Transformation 01",
+    before: "/images/projects/IMG-20260915-WA0005.jpg",
+    after: "/images/projects/IMG-20260915-WA0006.jpg",
   },
   {
-    title: "Bedroom Renovation",
-    before:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=80",
-    after:
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=80",
+    title: "Project Transformation 02",
+    before: "/images/projects/IMG-20260915-WA0007.jpg",
+    after: "/images/projects/IMG-20260915-WA0008.jpg",
   },
   {
     title: "Kitchen Upgrade",
