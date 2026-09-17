@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export const business = {
   name: "Elevio Interiors",
   tagline: "Elevate Every Space. Inspire Every Life.",
-  phone: "+91 81268 12096",
+  phone:  "+91 98107 57148",
   phoneHref: "tel:+918126812096",
   whatsapp: "https://wa.me/918126812096",
   email: "eleviointerior@gmail.com",
