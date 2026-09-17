@@ -27,7 +27,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: EASE, delay: 0.5 }}
         >
-          Interior Design Studio &middot; Noida
+          Interior Designers & Turnkey Interior Solutions in Noida
         </motion.div>
 
         <h1 className="text-[clamp(3rem,9vw,9rem)] text-cream">
@@ -61,8 +61,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: EASE, delay: 0.7 }}
         >
-          We plan, design, and execute complete interiors — from the first meeting
-          to the final handover.
+          Elevio Interiors provides residential and commercial interior design, 3D visualization, modular kitchens, custom furniture and turnkey interior execution services across Noida and Delhi NCR.
         </motion.p>
 
         <motion.div
@@ -72,10 +71,10 @@ export default function Hero() {
           transition={{ duration: 1, ease: EASE, delay: 0.85 }}
         >
           <Button href="#portfolio" variant="primary">
-            Explore Our Work
+            View Our Projects
           </Button>
           <Button href="#contact" variant="outline" showArrow>
-            Start Your Project
+            Get a Consultation
           </Button>
         </motion.div>
       </div>
