@@ -10,7 +10,7 @@ export const business = {
   tagline: "Elevate Every Space. Inspire Every Life.",
   phone:  "+91 98107 57148",
   phoneHref: "tel:+918126812096",
-  whatsapp: "https://wa.me/918126812096",
+  whatsapp: "https://wa.me/918126812096?text=Hello%20Elevio%20Interiors%2C%20I%20would%20like%20to%20know%20more%20about%20your%20interior%20design%20services.",
   email: "eleviointerior@gmail.com",
   emailHref: "mailto:eleviointerior@gmail.com",
   location: "Noida Sector 93, Uttar Pradesh, India",
