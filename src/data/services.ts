@@ -95,7 +95,7 @@ export const beforeAfterData = [
     after: "/images/projects/IMG-20260915-WA0007.jpg",
   },
   {
-    title: "Kitchen Upgrade",
+    title: "Project Transformation 03",
     before:
       "/images/projects/lodyBefore.jpg",
     after:
