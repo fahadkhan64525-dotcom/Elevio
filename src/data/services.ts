@@ -97,9 +97,9 @@ export const beforeAfterData = [
   {
     title: "Kitchen Upgrade",
     before:
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1400&q=80",
+      "/images/projects/lodyBefore.jpg",
     after:
-      "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1400&q=80",
+      "public/images/projects/lobyAfer.jpg",
   },
 ];
 
