@@ -99,7 +99,7 @@ export const beforeAfterData = [
     before:
       "/images/projects/lodyBefore.jpg",
     after:
-      "public/images/projects/lobyAfer.jpg",
+      "/images/projects/lobyAfter.jpg",
   },
 ];
 
