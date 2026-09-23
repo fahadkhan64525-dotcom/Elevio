@@ -97,9 +97,9 @@ export const beforeAfterData = [
   {
     title: "Project Transformation 03",
     before:
-      "/images/projects/lodyBefore.jpg",
-    after:
       "/images/projects/lobyAfter.jpg",
+    after:
+      "/images/projects/lodyBefore.jpg",
   },
 ];
 
