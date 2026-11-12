@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     description:
       "Elevio Interiors creates premium residential, commercial, modular kitchen and luxury interior designs in Noida and Delhi NCR.",
 
-    url: "https://www.eleviointeriors.com",
+    url: "https://www.eleviointeriors.com", 
 
     siteName: "Elevio Interiors",
 
